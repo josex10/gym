@@ -1,0 +1,91 @@
+<!-- views/pages/client/frmAddClient.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <% include ../../partials/head %>
+</head>
+<body class="container">
+
+    <header>
+        <% include ../../partials/header %>
+    </header>
+
+    <main>
+        <h1>Add Client</h1>
+        <hr>
+
+        <!-- Form -->
+        <form action="/addClientPost" method="POST">
+
+            <div class="form-group">
+                <label for="frmAddClientId">Cedula</label>
+                <input type="text" class="form-control" id="frmAddClientId" name="frmAddClientId" placeholder="Cedula">
+            </div>
+
+            <div class="form-group">
+                <label for="frmAddClientName">Nombre</label>
+                <input type="text" class="form-control" id="frmAddClientName" name="frmAddClientName" placeholder="Nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="frmAddClientName">Apellido</label>
+                <input type="text" class="form-control" id="frmAddClientName" name="frmAddClientName" placeholder="Nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="frmAddClientName">Telefono</label>
+                <input type="text" class="form-control" id="frmAddClientName" name="frmAddClientName" placeholder="Nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="frmAddClientName">Direccion</label>
+                <input type="text" class="form-control" id="frmAddClientName" name="frmAddClientName" placeholder="Nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="frmAddClientName">Estatura</label>
+                <input type="text" class="form-control" id="frmAddClientName" name="frmAddClientName" placeholder="Nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="frmAddClientName">Peso</label>
+                <input type="text" class="form-control" id="frmAddClientName" name="frmAddClientName" placeholder="Nombre">
+            </div>
+
+            <div class="form-group">
+                <label for="">Fecha de Nacimiento</label>
+            </div>
+
+
+            <input type="date" name="fecha">
+
+
+            <div class="form-group">
+                <label for="frmAddClientName">Dia</label>
+                <input type="text" class="form-control" id="frmAddClientName" name="frmAddClientName" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+                <label for="frmAddClientName">Mes</label>
+                <input type="text" class="form-control" id="frmAddClientName" name="frmAddClientName" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+                <label for="frmAddClientName">Ano</label>
+                <input type="text" class="form-control" id="frmAddClientName" name="frmAddClientName" placeholder="Nombre">
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+
+        </form>
+
+
+
+
+    </main>
+
+    <footer>
+        <% include ../../partials/footer %>
+    </footer>
+
+</body>
+</html>
